@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container,  Card } from 'react-bootstrap'
 import 'antd/dist/antd.css'
-import { Badge, Button, Timeline } from 'antd';
-
+import { Badge, Button } from 'antd';
+import TimelineX from './Timeline/TimelineX'
 
 class TimelineExample extends React.Component{
     state = { size: 'medium'};
@@ -14,15 +14,7 @@ class TimelineExample extends React.Component{
                     Timeline Example
                     <hr class="my-4"/>
                     <Container>
-                    <Timeline>
-                        <Timeline.Item>All Hands Meeting</Timeline.Item>
-                        <Timeline.Item>Yet another one, at 15:00 PM</Timeline.Item>
-                        <Timeline.Item>Build the production release <Badge count={"NEW"} /></Timeline.Item>
-                        <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>
-                        <Timeline.Item>Yet another one, at 15:00 PM</Timeline.Item>
-                        <Timeline.Item>Build the production release <Badge count={"NEW"} /></Timeline.Item>
-                        <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>
-                    </Timeline>
+                    <TimelineX/>                        
                     </Container>
                     <hr class="my-2"/>
                     <Button class="btn-shadow " type="primary" shape="round"  size={size}>
