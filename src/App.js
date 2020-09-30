@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import PortfolioPerformance from './Components/PortfolioPerformance/PortfolioPerformance'
 import './App.css';
 
 function App() {
     return ( <
-        div className = "App" >
-
+        div >
+        <
+        PortfolioPerformance / >
         <
         /div>
     );
