@@ -3,7 +3,7 @@ import { Container,  Card } from 'react-bootstrap'
 import 'antd/dist/antd.css'
 import { Badge, Button } from 'antd';
 import TimelineX from './Timeline/TimelineX'
-
+import './TimelineExample.module.css'
 class TimelineExample extends React.Component{
     state = { size: 'medium'};
     render(){

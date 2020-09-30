@@ -3,6 +3,7 @@ import PortfolioPerformance from './Components/PortfolioPerformance/PortfolioPer
 import './App.css';
 import TechnicalSupport from './Components/TechnicalSupport/TechnicalSupport'
 import TimelineExample from './Components/TimelineExample/TimelineExample'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
     return ( <
