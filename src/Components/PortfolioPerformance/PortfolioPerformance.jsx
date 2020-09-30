@@ -6,7 +6,7 @@ class PortfolioPerformance extends React.Component{
     render(){
         return (
             <div class= "PortfolioPerformance">
-                <Card>
+                <Card style={{ width: '100%'}}>
                     <Card.Header as="h5">
                         <div class="row">
                             <div class="col">
